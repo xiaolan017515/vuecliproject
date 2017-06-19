@@ -1,0 +1,62 @@
+.food_box{
+  list-style: none;
+.f_tab1,.f_tab2,.f_tab3{
+  display: inline-block;
+  height: 100px;
+  line-height: 100px
+  }
+.f_tab1{
+      width: 100px;
+        img{
+          width: 100%;
+          vertical-align:middle;
+          .border-radius
+        }
+  }
+.f_tab2,.f_tab3{
+  width: 200px;
+}
+}
+.cart-item-head{
+    list-style: none;
+.f_tab1,.f_tab2,.f_tab3{
+  display: inline-block;
+  height: 50px;
+  line-height: 50px
+  }
+.f_tab1{
+      width: 100px;
+        img{
+          width: 100%;
+          vertical-align:middle;
+          .border-radius
+        }
+  }
+.f_tab2,.f_tab3{
+  width: 200px;
+}
+}
+@base: #f938ab;
+.box-shadow(@style, @c) when (iscolor(@c)) {
+  -webkit-box-shadow: @style @c;
+  box-shadow:         @style @c;
+}
+.border-radius (@radius:5px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+.item-edit-btn {
+  display: inline-block;
+  width: 16px;
+  height: 20px;
+}
+.item-edit-btn .icon-del {
+    height: 100%;
+    fill: #999; 
+    width: 100%
+}
+.item-edit-btn .icon-add {
+    height: 100%;
+    fill: #999; 
+}

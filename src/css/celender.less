@@ -1,0 +1,86 @@
+.celendebox{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.calende_t{
+  width: 80%;
+  max-width: 320px;
+  // font-size: 1.6rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  .calender_nav{
+    height: 30px;
+    align-items: center;
+    width: 98%;
+    display: flex;
+   .nav_left{
+     width: 50px;
+     img{
+       width:25px;
+     }
+    //  background: url('../img/back.png')
+   }
+   .nav_center{
+     flex-basis: 100%;
+   }
+   .nav_right{
+     width: 50px;
+      img{
+       width:25px;
+     }
+   }
+  }
+    .celender_li{
+        width: 100%;
+        display: flex;
+        box-sizing: border-box;
+        li{
+          background: #f5f5f5;
+          // padding: 10px 0;
+           width: 13.9%;
+           display: flex;
+            box-sizing: border-box;
+           justify-content: center;
+           align-content: center;
+          border: 1px solid #f2f1f1;
+          div{
+            width:30px;
+            height: 30px;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+          }
+        }
+    }
+    .celender_item{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          li{
+            // padding: 10px 0;
+            background: #f5f5f5;
+            box-sizing: border-box;
+            width: 13.9%;
+            border: 1px solid #f2f1f1;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            border: 1px solid #f2f1f1;
+            :hover{
+              background: red
+            }
+            div{
+              width:30px;
+              height: 30px;
+              display: flex;
+              justify-content: center; 
+              align-items: center;
+            }
+          }
+    }
+}
+.curractive{
+  color: red
+}
